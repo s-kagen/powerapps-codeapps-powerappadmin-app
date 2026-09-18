@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "appId": "0d8c1723-ad6d-4226-9d0e-9ff6489f02eb",
+  "appDisplayName": "Power Apps 管理アプリ",
+  "region": "prod",
+  "environmentId": "17423f17-edb6-e0b7-b168-1b149c4b4509",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {
+    "41b0ebbe-fed9-4539-a6d9-be4af6126cc7": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_powerappsforadmins",
+      "displayName": "Power Apps for Admins",
+      "dataSources": [
+        "powerappsforadmins"
+      ],
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {}
+}
